@@ -20,7 +20,6 @@ class Point {
         System.out.println("(" + x + ", " + y + ")");
     }
 
-    // Method to scale the point closer by half to (0,0)
     public void scale() {
         this.x /= 2;
         this.y /= 2;
